@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras.models import load_model
+from keras.models import load_model
 from PIL import Image, ImageOps
 
 st.set_page_config(page_title="MNIST Digit Classifier", page_icon="✍️")
